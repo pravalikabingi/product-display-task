@@ -1,0 +1,42 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh ;  
+}
+.subParent{
+    border: 2px none black;
+    border-radius: 5px;
+    width:70%;
+    max-width: 500px;
+    padding: 2%;
+    background-color: rgb(243, 161, 211);
+}
+.child1 img{
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+}
+.child2{
+    text-align: center;
+    padding: 5%;
+    font-size: 18px;
+}
+.btn{
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+@media (max-width: 600px) {
+    .subParent {
+        width: 90%;
+    }
+
+    .btn {
+        max-width: 100%;
+    }
+}

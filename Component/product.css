@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.form-page{
+    background-image: url("https://wallpapercave.com/wp/wp9764012.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.form-pages{
+    background-image: url("https://i.pinimg.com/originals/da/d1/78/dad178adbd93a57cc79a19f1a02cfad5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.form{
+    border: 2px none black;
+    border-radius: 5%;
+    padding: 5%;
+    background-image: linear-gradient(to bottom, #a9c9ff, #ffbbec);
+}
+.inp{
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
